@@ -1,0 +1,211 @@
+region,purpose,year,number_of_visits,avg_length_of_stay
+North America,Holiday,2018,16144,6.6
+North America,Holiday,2019,16952,6.6
+North America,Holiday,2020,NA,NA
+North America,Holiday,2021,1596.6821278073598,9.133937629603393
+North America,Holiday,2022,18519.79964940411,7.300657604188204
+North America,of which inclusive tour,2018,2156,6.7
+North America,of which inclusive tour,2019,2706,6.4
+North America,of which inclusive tour,2020,NA,NA
+North America,of which inclusive tour,2021,83.18549615420672,9.519589371255082
+North America,of which inclusive tour,2022,1696.6866064485623,7.687995726121358
+North America,Business,2018,5028,5.2
+North America,Business,2019,4384,5
+North America,Business,2020,NA,NA
+North America,Business,2021,937.4842508298267,9.777175394260412
+North America,Business,2022,4156.989459993463,6.49664044000378
+North America,Visiting friends or relatives,2018,15650,10.6
+North America,Visiting friends or relatives,2019,13036,9.4
+North America,Visiting friends or relatives,2020,NA,NA
+North America,Visiting friends or relatives,2021,8532.637979648202,19.529832457850173
+North America,Visiting friends or relatives,2022,20419.405197423046,11.70522455916007
+North America,Miscellaneous,2018,6005,11.4
+North America,Miscellaneous,2019,2488,4.8
+North America,Miscellaneous,2020,NA,NA
+North America,Miscellaneous,2021,1894.8210459293066,22.542410604322654
+North America,Miscellaneous,2022,5673.394903564575,10.088438920255074
+North America,All visits,2018,42826,7.9
+North America,All visits,2019,36859,6.9
+North America,All visits,2020,NA,NA
+North America,All visits,2021,12961.625404214665,16.372898750103815
+North America,All visits,2022,48769.589210385384,8.893988004894101
+Europe,Holiday,2018,48084,4.8
+Europe,Holiday,2019,51768,4.9
+Europe,Holiday,2020,NA,NA
+Europe,Holiday,2021,5844.0356513408315,7.125977899212292
+Europe,Holiday,2022,38440.62866490859,4.930961576747591
+Europe,of which inclusive tour,2018,6315,4.8
+Europe,of which inclusive tour,2019,7820,4.9
+Europe,of which inclusive tour,2020,NA,NA
+Europe,of which inclusive tour,2021,409.67168874960714,6.74281148875333
+Europe,of which inclusive tour,2022,3388.9895908203134,5.53388790719024
+Europe,Business,2018,22750,3.4
+Europe,Business,2019,22618,3.4
+Europe,Business,2020,NA,NA
+Europe,Business,2021,6806.63174034247,6.419617165974598
+Europe,Business,2022,13916.09216416119,3.4705946254238604
+Europe,Visiting friends or relatives,2018,57855,7
+Europe,Visiting friends or relatives,2019,56226,6.6
+Europe,Visiting friends or relatives,2020,NA,NA
+Europe,Visiting friends or relatives,2021,31483.386731404677,12.10048761297275
+Europe,Visiting friends or relatives,2022,60410.024812862364,7.65620628063224
+Europe,Miscellaneous,2018,15670,9.5
+Europe,Miscellaneous,2019,18561,11.6
+Europe,Miscellaneous,2020,NA,NA
+Europe,Miscellaneous,2021,9985.682864545714,28.41787732283935
+Europe,Miscellaneous,2022,15601.74300679238,12.147816064556967
+Europe,All visits,2018,144359,5.4
+Europe,All visits,2019,149172,5.5
+Europe,All visits,2020,NA,NA
+Europe,All visits,2021,54119.73698763361,11.196558780088655
+Europe,All visits,2022,128368.48864872487,6.118571519330434
+- of which EU,Holiday,2018,43625,4.7
+- of which EU,Holiday,2019,46889,4.9
+- of which EU,Holiday,2020,NA,NA
+- of which EU,Holiday,2021,5107.259002748528,6.9853028055339506
+- of which EU,Holiday,2022,34658.47921602751,4.921593402413988
+- of which EU,of which inclusive tour,2018,5845,4.8
+- of which EU,of which inclusive tour,2019,7178,4.8
+- of which EU,of which inclusive tour,2020,NA,NA
+- of which EU,of which inclusive tour,2021,366.2477047859388,6.847326849045883
+- of which EU,of which inclusive tour,2022,3109.182497559951,5.561524343389596
+- of which EU,Business,2018,20735,3.4
+- of which EU,Business,2019,20809,3.4
+- of which EU,Business,2020,NA,NA
+- of which EU,Business,2021,5893.152986397774,6.040521942683115
+- of which EU,Business,2022,12173.76862993117,3.396210307672889
+- of which EU,Visiting friends or relatives,2018,53013,7
+- of which EU,Visiting friends or relatives,2019,50954,6.5
+- of which EU,Visiting friends or relatives,2020,NA,NA
+- of which EU,Visiting friends or relatives,2021,28578.137712722873,11.91316615270707
+- of which EU,Visiting friends or relatives,2022,54272.796010319275,7.490908688081939
+- of which EU,Miscellaneous,2018,13577,9.4
+- of which EU,Miscellaneous,2019,13776,9.8
+- of which EU,Miscellaneous,2020,NA,NA
+- of which EU,Miscellaneous,2021,8550.681604954358,28.07736127242448
+- of which EU,Miscellaneous,2022,10840.701707000022,9.967140141990889
+- of which EU,All visits,2018,130950,5.4
+- of which EU,All visits,2019,132429,5.3
+- of which EU,All visits,2020,NA,NA
+- of which EU,All visits,2021,48129.231306823465,10.913269488532007
+- of which EU,All visits,2022,111945.74556327783,5.904485695153733
+- of which EU16,Holiday,2018,38473,4.5
+- of which EU16,Holiday,2019,39812,4.7
+- of which EU16,Holiday,2020,NA,NA
+- of which EU16,Holiday,2021,3839.6541399603557,5.967668328787985
+- of which EU16,Holiday,2022,30745.39980936136,4.82747598779298
+- of which EU17,of which inclusive tour,2018,4712,4.2
+- of which EU17,of which inclusive tour,2019,5778,4.6
+- of which EU17,of which inclusive tour,2020,NA,NA
+- of which EU17,of which inclusive tour,2021,300.27196963146827,6.629408061627763
+- of which EU17,of which inclusive tour,2022,2837.09986869939,5.554407947497247
+- of which EU18,Business,2018,11538,2.7
+- of which EU18,Business,2019,12681,3
+- of which EU18,Business,2020,NA,NA
+- of which EU18,Business,2021,3797.981680227432,6.252147776357667
+- of which EU18,Business,2022,7756.937142018117,3.240303145984297
+- of which EU19,Visiting friends or relatives,2018,35732,6
+- of which EU19,Visiting friends or relatives,2019,35762,5.6
+- of which EU19,Visiting friends or relatives,2020,NA,NA
+- of which EU19,Visiting friends or relatives,2021,21456.93037626339,10.696220349652648
+- of which EU19,Visiting friends or relatives,2022,40914.65165889119,6.960112847063901
+- of which EU20,Miscellaneous,2018,10570,8.3
+- of which EU20,Miscellaneous,2019,10512,8.5
+- of which EU20,Miscellaneous,2020,NA,NA
+- of which EU20,Miscellaneous,2021,7043.789216734046,27.233355213236855
+- of which EU20,Miscellaneous,2022,9469.22339040229,9.661492535267024
+- of which EU21,All visits,2018,96313,4.8
+- of which EU21,All visits,2019,98767,4.9
+- of which EU21,All visits,2020,NA,NA
+- of which EU21,All visits,2021,36138.35541318524,10.27956606029605
+- of which EU21,All visits,2022,88886.2120006729,5.690074511803332
+- of which EU Oth,Holiday,2018,5152,7.4
+- of which EU Oth,Holiday,2019,7077,6.6
+- of which EU Oth,Holiday,2020,NA,NA
+- of which EU Oth,Holiday,2021,1267.604862788164,14.448257939099047
+- of which EU Oth,Holiday,2022,3913.0794066661215,5.811875530231412
+- of which EU Oth,of which inclusive tour,2018,1134,10.8
+- of which EU Oth,of which inclusive tour,2019,1400,6.5
+- of which EU Oth,of which inclusive tour,2020,NA,NA
+- of which EU Oth,of which inclusive tour,2021,65.97573515447061,8.051951109527968
+- of which EU Oth,of which inclusive tour,2022,272.08262886056053,5.636830610339861
+- of which EU Oth,Business,2018,9197,5.1
+- of which EU Oth,Business,2019,8128,4.6
+- of which EU Oth,Business,2020,NA,NA
+- of which EU Oth,Business,2021,2095.1713061703513,5.691313083833676
+- of which EU Oth,Business,2022,4416.831487913059,3.709680595794741
+- of which EU Oth,Visiting friends or relatives,2018,17281,10.5
+- of which EU Oth,Visiting friends or relatives,2019,15192,10.2
+- of which EU Oth,Visiting friends or relatives,2020,NA,NA
+- of which EU Oth,Visiting friends or relatives,2021,7121.207336459508,18.127460603426993
+- of which EU Oth,Visiting friends or relatives,2022,13358.144351428073,9.773952050067194
+- of which EU Oth,Miscellaneous,2018,3008,17.9
+- of which EU Oth,Miscellaneous,2019,3265,20.9
+- of which EU Oth,Miscellaneous,2020,NA,NA
+- of which EU Oth,Miscellaneous,2021,1506.892388220316,32.833899487811074
+- of which EU Oth,Miscellaneous,2022,1371.47831659773,12.752633046700897
+- of which EU Oth,All visits,2018,34637,8
+- of which EU Oth,All visits,2019,33662,7.5
+- of which EU Oth,All visits,2020,NA,NA
+- of which EU Oth,All visits,2021,11990.875893638311,13.403552256437518
+- of which EU Oth,All visits,2022,23059.533562605007,6.907843546048243
+Other Countries,Holiday,2018,31484,8.3
+Other Countries,Holiday,2019,33500,8.7
+Other Countries,Holiday,2020,NA,NA
+Other Countries,Holiday,2021,2763.434651368325,15.308587642480335
+Other Countries,Holiday,2022,18069.32659567735,10.268963680645253
+Other Countries,of which inclusive tour,2018,3427,6.9
+Other Countries,of which inclusive tour,2019,4315,7.9
+Other Countries,of which inclusive tour,2020,NA,NA
+Other Countries,of which inclusive tour,2021,61.905481531626414,11.028934778591703
+Other Countries,of which inclusive tour,2022,1490.9257025738436,14.397158515935507
+Other Countries,Business,2018,8888,8.1
+Other Countries,Business,2019,9265,8.3
+Other Countries,Business,2020,NA,NA
+Other Countries,Business,2021,1506.9293722839182,22.769364117665177
+Other Countries,Business,2022,5758.7992508030275,11.534864496937523
+Other Countries,Visiting friends or relatives,2018,44580,17.1
+Other Countries,Visiting friends or relatives,2019,42698,17.2
+Other Countries,Visiting friends or relatives,2020,NA,NA
+Other Countries,Visiting friends or relatives,2021,15316.644929242533,36.70046450490851
+Other Countries,Visiting friends or relatives,2022,50032.968766124395,23.314240897538486
+Other Countries,Miscellaneous,2018,19186,29.1
+Other Countries,Miscellaneous,2019,18134,24.6
+Other Countries,Miscellaneous,2020,NA,NA
+Other Countries,Miscellaneous,2021,6853.729228773348,72.50484367727154
+Other Countries,Miscellaneous,2022,11865.054355525333,31.557487410570815
+Other Countries,All visits,2018,104138,12.8
+Other Countries,All visits,2019,103597,12.6
+Other Countries,All visits,2020,NA,NA
+Other Countries,All visits,2021,26440.73818166814,34.85614344755426
+Other Countries,All visits,2022,85726.14896812984,17.931093957347016
+Total World,Holiday,2018,95712,5.9
+Total World,Holiday,2019,102219,6
+Total World,Holiday,2020,NA,NA
+Total World,Holiday,2021,10204.152430516504,8.681238077235024
+Total World,Holiday,2022,75029.7549099896,6.20485564019584
+Total World,of which inclusive tour,2018,11898,5.5
+Total World,of which inclusive tour,2019,14841,5.8
+Total World,of which inclusive tour,2020,NA,NA
+Total World,of which inclusive tour,2021,554.7626664354402,7.386183544432834
+Total World,of which inclusive tour,2022,6576.601899842715,7.021359141985724
+Total World,Business,2018,36666,4.2
+Total World,Business,2019,36267,4.2
+Total World,Business,2020,NA,NA
+Total World,Business,2021,9251.045363456213,7.568223980531126
+Total World,Business,2022,23831.88087495778,4.628598335389749
+Total World,Visiting friends or relatives,2018,118085,9.6
+Total World,Visiting friends or relatives,2019,111959,9
+Total World,Visiting friends or relatives,2020,NA,NA
+Total World,Visiting friends or relatives,2021,55332.66964029513,16.010273624565126
+Total World,Visiting friends or relatives,2022,130862.39877641018,11.108080276371913
+Total World,Miscellaneous,2018,40861,14.4
+Total World,Miscellaneous,2019,39183,13.7
+Total World,Miscellaneous,2020,NA,NA
+Total World,Miscellaneous,2021,18734.233139248383,35.34953920844104
+Total World,Miscellaneous,2022,33140.19226588227,14.91006106625204
+Total World,All visits,2018,291324,7.2
+Total World,All visits,2019,289628,7.1
+Total World,All visits,2020,NA,NA
+Total World,All visits,2021,93522.10057351648,14.64985744038541
+Total World,All visits,2022,262864.2268272412,8.41315239680697

@@ -1,0 +1,538 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+#Packages
+```{r}
+library(tidyverse)
+library(ggplot2)
+```
+
+#data
+```{r}
+overseas_purpose_of_visit <- 
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/overseas_purpose_of_visit_clean.csv") 
+
+overseas_residents_uk_visits <- 
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/overseas_residents_uk_visits_clean.csv") 
+
+spend_per_day_by_purpose <- 
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/overseas_purpose_spend_per_day_vs_visit_clean.csv") 
+
+spend_by_region <- read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/overseas_spending_region_clean.csv") 
+
+spend_by_mode_of_transport_and_purpose <- 
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/spending_by_mode_of_travel_and_purpose.csv") 
+
+visits_and_spending_by_purpose_and_length_of_stay_per_region <- read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/visits_and_spending_by_purpose_and_length_of_stay_per_region.csv") 
+
+visits_and_spending_by_purpose_and_length_of_stay <- read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/visits_and_spending_by_purpose_and_length_of_stay.csv")
+
+visits_to_and_spending_in_uk_regions <- 
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/visits_to_and_spending_in_uk_regions.csv")
+
+visits_to_uk_regions_by_qtr_2018_22 <-
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/visits_to_uk_regions_by_qtr_2018_22")
+
+mode_of_travel_and_purpose <- 
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/mode_of_travel_and_purpose.csv")
+
+visits_to_and_spending_in_uk_regions_by_purpose <-  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/visits_to_and_spending_in_uk_regions_by_purpose.csv")
+
+visits_by_country_2018_22 <- 
+  read_csv("~/Desktop/projects/visit_scotland_project/data/clean_data/visits_by_country_2018_22")
+```
+```{r}
+visit_scotland_colours <- c("#533D7E", "#AF7AD7", "#2C1572", "#6F73D2")
+col_scheme <- c("#533D7E", "#AF7AD7", "#2C1572", "#6F73D2")
+
+```
+
+```{r}
+# Show the total number of visits for each year by region
+overseas_residents_uk_visits_annual <- overseas_residents_uk_visits %>% 
+  group_by(year, region) %>% 
+  summarise("total_number_of_visits_thousands" = sum(number_of_visits_thousands))
+```
+
+```{r}
+overseas_residents_uk_visits_annual %>% 
+  filter(region != "all_visit") %>% 
+  ggplot(aes(x = year, 
+             y = total_number_of_visits_thousands, 
+             fill = region)) +
+  geom_col() +
+  labs(title = "Annual UK Visits by Region",
+       x = "Year",
+       y = "Number of Visits (Thousands)")
+```
+
+Here we can see the spread of regions people tavel to the UK from. The UK recieved 
+approximately 40 million visitors from overseas in 2018 and showed a slight increase 
+in 2019. However we can see a sharp decrease in 2020/ 20201 due to the covid pandemic 
+there has been a significant increase in overseas visitor numbers reaching just over 
+30 million however the UK is yet to return to pre pandemic levels. The majority of 
+overseas visits are from Europe. 
+
+
+## Purpose of visits
+```{r}
+# Show the total number of visits for each year by purpose 
+overseas_purpose_of_visit_annual <- overseas_purpose_of_visit %>% 
+  group_by(year, purpose_of_visit) %>% 
+  summarise("total_number_of_visits_per_purpose_thousands" = sum(number_of_visits_thousands),
+            "annual_total_number_of_visits_thousands" = sum(all_visits))
+```
+
+
+```{r}
+overseas_purpose_of_visit_annual %>% 
+  ggplot(aes(x = year, 
+             y = total_number_of_visits_per_purpose_thousands, 
+             fill = purpose_of_visit )) +
+  geom_col() + 
+  labs(title = "Annual Purpose of Oversea Visits",
+       x = "Year",
+       y = "Number of Visits (Thousands)")
+```
+```{r}
+overseas_purpose_of_visit %>% 
+  group_by(, year) %>% 
+  summarise(sum(total_number_of_visits_per_purpose_thousands))
+```
+
+#Spend per day by Purpose
+
+```{r}
+spend_per_day_by_purpose %>% 
+  ggplot(aes(x = year,
+             y = avg_spending_per_visit,
+             fill = purpose)) +
+  geom_col() +
+  labs(title = "Average Spending per Visit by Purpose 2018-2022",
+       x = "Year",
+       y = "Average Spending per visit (£)") +
+  coord_flip()
+```
+
+```{r}
+spend_per_day_by_purpose %>% 
+  ggplot(aes(x = year,
+             y = avg_spending_per_day,
+             fill = purpose)) +
+  geom_col() +
+  labs(title = "Average Spending per day by Purpose 2018-2022",
+       x = "Year",
+       y = "Average Spending per day (£)") 
+```
+
+```{r}
+spend_per_day_by_purpose %>% 
+  ggplot(aes(x = region,
+             y = avg_spending_per_day,
+             fill = purpose)) +
+  geom_col() +
+  labs(title = "Average Spending per Visit by Region and Purpose",
+       x = "Region",
+       y = "Average Spending per visit (£)") +
+  coord_flip()
+```
+
+```{r}
+spend_per_day_by_purpose %>% 
+  ggplot(aes(x = region,
+             y = avg_spending_per_day,
+             fill = purpose)) +
+  geom_col() +
+  labs(title = "Average Spending per Day by Region and Purpose",
+       x = "Region",
+       y = "Average Spending per Day (£)") +
+  coord_flip()
+```
+
+# Spend per day by Region 
+
+```{r}
+spend_by_region %>% 
+  ggplot(aes(x= year,
+             y = spending_million,
+             fill = region)) +
+  geom_col() +
+  labs(title = "Spending by Region",
+       x = "Year",
+       y = "Spending (£ Million)")
+```
+
+```{r}
+spend_by_region %>% 
+  ggplot(aes(x= region,
+             y = spending_million,
+             fill = purpose)) +
+  geom_col() +
+  labs(title = "Spending by Region and Purpose ",
+       x = "Region",
+       y = "Spending (£ Million)") +
+  coord_flip()
+```
+ # Spend by mode of transport 
+```{r}
+spend_by_mode_of_transport_and_purpose %>% 
+  ggplot(aes(x= year,
+             y = total_spending_million,
+             fill = mode_of_travel)) +
+  geom_col() +
+  labs(labs = "Total Spending by Mode of Transport", 
+       x = "Year",
+       y = "Spending Million (£)")
+  
+```
+ 
+# Visits by mode of trannsport 
+
+```{r}
+selected_colors <- c(col_scheme[3], col_scheme[4]) 
+
+mode_of_travel_and_purpose %>% 
+  filter(mode_of_travel != "Total") %>% 
+    ggplot(aes(x= year,
+             y = number_of_visits,
+             fill = mode_of_travel)) +
+  geom_col() +
+  labs(title = "Total Number of Visits by Mode of Transport", 
+       x = "Year",
+       y = "Number of Visits") +
+    theme_minimal() +
+  theme(
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12, face = "bold"),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 10),
+        legend.key.size = unit(0.5, "cm")) +
+  scale_fill_manual(values = selected_colors)
+  
+```
+
+```{r}
+mode_of_travel_and_purpose %>%
+  filter(mode_of_travel != "Total") %>%
+  ggplot(aes(x = year,
+             y = number_of_visits,
+             fill = mode_of_travel)) +
+  geom_col() +
+  geom_text(aes(label = number_of_visits),
+            position = position_stack(vjust = 0.5),
+            size = 3) +  # Add annotations with values
+  labs(title = "Total Number of Visits by Mode of Transport",
+       x = "Year",
+       y = "Number of Visits") +
+  theme_minimal() +
+  theme(
+    axis.text = element_text(size = 10),
+    axis.title = element_text(size = 12, face = "bold"),
+    legend.position = "bottom",
+    legend.title = element_blank(),
+    legend.text = element_text(size = 10),
+    legend.key.size = unit(0.5, "cm")
+  ) +
+  scale_fill_manual(values = selected_colors)
+```
+
+## visits_and_spending_by_purpose_and_length_of_stay
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay %>% 
+  glimpse()
+```
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay %>% 
+  distinct(length_of_stay)
+```
+
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay <- 
+  visits_and_spending_by_purpose_and_length_of_stay %>% 
+  mutate(length_of_stay = recode(length_of_stay, 
+                          "30 nights or more" = "29 nights or more",
+                          "31 nights or more" = "29 nights or more",
+                          "32 nights or more" = "29 nights or more",
+                          "33 nights or more" = "29 nights or more",
+                          "34 nights or more" = "29 nights or more"))
+```
+
+
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay %>% 
+  ggplot(aes(x = length_of_stay,
+             y = number_of_visits,
+             fill= purpose)) +
+  geom_col() +
+  labs(title = "Number of Visits per Length of Stay",
+       x = "Length of Stay",
+       y = "Number of Visits") +
+  scale_y_continuous(labels = scales::comma) +
+  coord_flip()
+```
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay %>% 
+  ggplot(aes(x = length_of_stay,
+             y = spending_million,
+             fill= purpose)) +
+  geom_col() +
+  labs(title = "Spending vs Length of Stay",
+       x = "Length of Stay",
+       y = "Spending Million (£)") +
+  scale_y_continuous(labels = scales::comma) +
+  coord_flip()
+```
+
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay %>% 
+  ggplot(aes(x = year,
+             y = spending_million,
+             fill = length_of_stay)) +
+  geom_col() +
+  labs(title = "Spending vs Length of Stay",
+       x = "Length of Stay",
+       y = "Spending Million (£)") +
+  scale_y_continuous(labels = scales::comma) 
+```
+
+## visits_and_spending_by_purpose_and_length_of_stay_per_region
+
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay_per_region <- visits_and_spending_by_purpose_and_length_of_stay_per_region %>% 
+  mutate(length_of_stay = recode(length_of_stay, 
+                          "30 nights or more" = "29 nights or more",
+                          "31 nights or more" = "29 nights or more",
+                          "32 nights or more" = "29 nights or more",
+                          "33 nights or more" = "29 nights or more",
+                          "34 nights or more" = "29 nights or more",
+                          "35 nights or more" = "29 nights or more"))
+  
+```
+
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay_per_region %>% 
+  ggplot(aes(x = length_of_stay,
+             y = number_of_visits,
+             fill= region)) +
+  geom_col() +
+  labs(title = "Number of Visits per Length of Stay",
+       x = "Length of Stay",
+       y = "Number of Visits") +
+  scale_y_continuous(labels = scales::comma) +
+  coord_flip()
+```
+```{r}
+visits_and_spending_by_purpose_and_length_of_stay_per_region %>% 
+  ggplot(aes(x = length_of_stay,
+             y = spending_million,
+             fill= region)) +
+  geom_col() +
+  labs(title = "Spending per Length of Stay",
+       x = "Length of Stay",
+       y = "Spending Million (£)") +
+  scale_y_continuous(labels = scales::comma) +
+  coord_flip()
+```
+# visits_to_and_spending_in_uk_regions
+
+```{r}
+visits_to_and_spending_in_uk_regions %>% 
+  ggplot(aes(x = year,
+             y = number_of_visits_thousands,
+             fill = region_vistited)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Number of Visits by Region",
+       x = "Year",
+       y = "Number of Visits (Thousands)")
+  
+```
+
+```{r}
+visits_to_and_spending_in_uk_regions %>% 
+  ggplot(aes(x = year,
+             y = spending_million,
+             fill = region_vistited)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Spending by Region",
+       x = "Year",
+       y = "Spending (£ Million)")
+  
+```
+
+```{r}
+visits_to_and_spending_in_uk_regions %>% 
+  filter(region_vistited == "Scotland") %>% 
+  ggplot(aes(x = year,
+             y = number_of_visits_thousands)) +
+  geom_col(fill = visit_scotland_colours[1]) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Number of Visits to Scotland",
+       x = "Year",
+       y = "Number of Visits (Thousands)") 
+  
+```
+
+```{r}
+visits_to_and_spending_in_uk_regions %>% 
+  filter(region_vistited == "Scotland") %>% 
+  ggplot(aes(x = year,
+             y = spending_million)) +
+  geom_col(fill = visit_scotland_colours[2]) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title = "Spending in Scotland",
+       x = "Year",
+       y = "Spending (£ Million)") + 
+  theme_minimal() +
+  theme(
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12, face = "bold"),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 10),
+        legend.key.size = unit(0.5, "cm")) +
+  scale_colour_manual(values = visit_scotland_colours)
+  
+```
+
+#
+```{r}
+visits_to_uk_regions_by_qtr_2018_22 %>% 
+  ggplot(aes(x= year,
+             y= number_of_visits_thousands,
+             fill = region_visited)) +
+  geom_col() +
+  labs(title = "Number of Visits by Region per Quarter",
+      x = "Year",
+      y = "Number of Visits (Thousands)") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+```{r}
+visits_to_uk_regions_by_qtr_2018_22 %>% 
+  filter(region_visited == "Scotland") %>% 
+  ggplot(aes(x= year,
+             y= number_of_visits_thousands,
+             fill = region_visited)) +
+  geom_col(fill = visit_scotland_colours[1]) +
+  labs(title = "Number of Visits to Scotland per Quarter",
+      x = "Year",
+      y = "Number of Visits (Thousands)") +
+  theme_minimal() +
+  theme(
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 10),
+        legend.key.size = unit(0.5, "cm"))
+```
+```{r}
+visits_to_and_spending_in_uk_regions_by_purpose <- visits_to_and_spending_in_uk_regions_by_purpose %>% 
+  mutate(purpose = recode(purpose,
+                           "of which inclusive tour" = "Holiday"))
+```
+
+```{r}
+purpose_colours <- c("#B2BABB", "#C39BD3", "#AED6F1","#533D7E")
+
+visits_to_and_spending_in_uk_regions_by_purpose %>% 
+  filter(region == "Scotland",
+         purpose != "All visits") %>% 
+ggplot(aes(x = year,
+           y = number_of_visits_thousands,
+           fill = purpose)) +
+  geom_col() +
+    labs(title = "Number of Visits to Scotland Annually by Purpose",
+      x = "Year",
+      y = "Number of Visits (Thousands)") +
+  theme_minimal() +
+  theme(
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 10),
+        legend.key.size = unit(0.5, "cm")) +
+  scale_fill_manual(values = purpose_colours)
+  
+```
+
+
+```{r}
+purpose_colours <- c("#B2BABB", "#C39BD3", "#AED6F1","#533D7E")
+
+visits_to_and_spending_in_uk_regions_by_purpose %>% 
+  filter(region == "Scotland",
+         purpose != "All visits") %>% 
+ggplot(aes(x = year,
+           y = spending_million,
+           fill = purpose)) +
+  geom_col() +
+    labs(title = "Spending in Scotland Annually by Purpose",
+      x = "Year",
+      y = "Number of Visits (Thousands)") +
+  theme_minimal() +
+  theme(
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 10),
+        legend.key.size = unit(0.5, "cm")) +
+  scale_fill_manual(values = purpose_colours)
+```
+
+```{r}
+purpose_colours <- c("#B2BABB", "#C39BD3", "#AED6F1","#533D7E")
+
+visits_to_and_spending_in_uk_regions %>% 
+  filter(region_vistited == "Scotland",
+         region_of_residence %in% c("Europe", "North America", "Other Countries")) %>% 
+  ggplot(aes(x = year,
+           y = number_of_visits_thousands,
+           fill = region_of_residence)) +
+  geom_col() +
+    labs(title = "Annual Number of Visits to Scotland by Region",
+      x = "Year",
+      y = "Number of Visits (Thousands)") +
+  theme_minimal() +
+  theme(
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 12, face = "bold"),
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size = 10),
+       legend.key.size = unit(0.5, "cm")) +
+   scale_fill_manual(values = purpose_colours)
+```
+```{r}
+
+visits_to_uk_regions_by_qtr_2018_22_numeric <- visits_to_uk_regions_by_qtr_2018_22 %>%
+  mutate(year_numeric = str_extract(year, "\\d+"),  # Extract the year using regular expression
+         quarter = str_extract(year, "\\d+$"))  # Extract the quarter using regular expression
+
+# Convert to numeric format by combining year and quarter
+visits_to_uk_regions_by_qtr_2018_22_numeric <- visits_to_uk_regions_by_qtr_2018_22_numeric %>%
+  mutate(year_quarter = as.numeric(year_numeric) + as.numeric(quarter) / 10)
+
+```
+
+# Line Graph of visits 
+```{r}
+visits_to_uk_regions_by_qtr_2018_22_numeric %>% 
+  filter(region_visited == "Scotland",
+         year != c("2020 Qtr 1"| "2020 Qtr 2"| "2020 Qtr 3"| "2020 Qtr 4")) %>% 
+  ggplot(aes(x= year_quarter,
+             y= number_of_visits_thousands)) +
+  geom_line() 
+  
+```

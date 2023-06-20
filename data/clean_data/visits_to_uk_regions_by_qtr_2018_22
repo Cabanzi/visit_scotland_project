@@ -1,0 +1,841 @@
+region_visited,region_of_residence,year,number_of_visits_thousands
+London,North America,2018 Qtr 1,660.5047042343393
+London,North America,2018 Qtr 2,1071.4085247751013
+London,North America,2018 Qtr 3,1209.9527433496828
+London,North America,2018 Qtr 4,654.7709186549007
+London,North America,2019 Qtr 1,656.9146301102126
+London,North America,2019 Qtr 2,999.9127834893511
+London,North America,2019 Qtr 3,1129.198208418184
+London,North America,2019 Qtr 4,801.0116396119176
+London,North America,2020 Qtr 1,559.95673857264
+London,North America,2020 Qtr 2,NA
+London,North America,2020 Qtr 3,NA
+London,North America,2020 Qtr 4,NA
+London,North America,2021 Qtr 1,13.78788106998434
+London,North America,2021 Qtr 2,23.61826829182766
+London,North America,2021 Qtr 3,161.80372983632319
+London,North America,2021 Qtr 4,255.62337435756749
+London,North America,2022 Qtr 1,274.97701296431813
+London,North America,2022 Qtr 2,999.7644571644673
+London,North America,2022 Qtr 3,1336.9062607127123
+London,North America,2022 Qtr 4,906.1168397412227
+London,Europe,2018 Qtr 1,2766.0142104823035
+London,Europe,2018 Qtr 2,2957.0377120245666
+London,Europe,2018 Qtr 3,2792.186476032639
+London,Europe,2018 Qtr 4,3313.213992862268
+London,Europe,2019 Qtr 1,2919.205507197848
+London,Europe,2019 Qtr 2,3040.124065124015
+London,Europe,2019 Qtr 3,3104.6855661108993
+London,Europe,2019 Qtr 4,3557.174200407406
+London,Europe,2020 Qtr 1,2260.985454784022
+London,Europe,2020 Qtr 2,NA
+London,Europe,2020 Qtr 3,NA
+London,Europe,2020 Qtr 4,NA
+London,Europe,2021 Qtr 1,55.45936431554503
+London,Europe,2021 Qtr 2,74.09533567739335
+London,Europe,2021 Qtr 3,515.0352779351063
+London,Europe,2021 Qtr 4,1215.0385197285455
+London,Europe,2022 Qtr 1,1262.2979323633215
+London,Europe,2022 Qtr 2,2515.385652499237
+London,Europe,2022 Qtr 3,2549.6906024449363
+London,Europe,2022 Qtr 4,3286.554596932518
+London,- of which EU,2018 Qtr 1,2469.970458484477
+London,- of which EU,2018 Qtr 2,2620.226576536463
+London,- of which EU,2018 Qtr 3,2456.1798172216095
+London,- of which EU,2018 Qtr 4,2992.897211285011
+London,- of which EU,2019 Qtr 1,2640.6646003517353
+London,- of which EU,2019 Qtr 2,2757.4395700262485
+London,- of which EU,2019 Qtr 3,2751.6926994571927
+London,- of which EU,2019 Qtr 4,3199.744832860053
+London,- of which EU,2020 Qtr 1,2032.3371293942325
+London,- of which EU,2020 Qtr 2,NA
+London,- of which EU,2020 Qtr 3,NA
+London,- of which EU,2020 Qtr 4,NA
+London,- of which EU,2021 Qtr 1,48.372513901501414
+London,- of which EU,2021 Qtr 2,63.78454928897821
+London,- of which EU,2021 Qtr 3,456.40842367172195
+London,- of which EU,2021 Qtr 4,1094.698458140617
+London,- of which EU,2022 Qtr 1,1155.272294910681
+London,- of which EU,2022 Qtr 2,2267.659786097235
+London,- of which EU,2022 Qtr 3,2281.5841288513566
+London,- of which EU,2022 Qtr 4,2923.092645285853
+London,- of which EU Oth,2018 Qtr 1,2110.297863049315
+London,- of which EU Oth,2018 Qtr 2,2228.7743055391425
+London,- of which EU Oth,2018 Qtr 3,2108.166393864415
+London,- of which EU Oth,2018 Qtr 4,2542.7804072808904
+London,- of which EU Oth,2019 Qtr 1,2207.220974682993
+London,- of which EU Oth,2019 Qtr 2,2330.060276702392
+London,- of which EU Oth,2019 Qtr 3,2401.5820369701432
+London,- of which EU Oth,2019 Qtr 4,2706.346194242188
+London,- of which EU Oth,2020 Qtr 1,1682.1144470019458
+London,- of which EU Oth,2020 Qtr 2,NA
+London,- of which EU Oth,2020 Qtr 3,NA
+London,- of which EU Oth,2020 Qtr 4,NA
+London,- of which EU Oth,2021 Qtr 1,36.3842174902737
+London,- of which EU Oth,2021 Qtr 2,50.412776974604206
+London,- of which EU Oth,2021 Qtr 3,380.1486197435376
+London,- of which EU Oth,2021 Qtr 4,958.5848503201571
+London,- of which EU Oth,2022 Qtr 1,1034.16533667341
+London,- of which EU Oth,2022 Qtr 2,1974.225536372509
+London,- of which EU Oth,2022 Qtr 3,1970.658529678365
+London,- of which EU Oth,2022 Qtr 4,2590.704976523623
+London,- of which EU15,2018 Qtr 1,359.67259543516195
+London,- of which EU15,2018 Qtr 2,391.4522709973211
+London,- of which EU15,2018 Qtr 3,348.01342335719465
+London,- of which EU15,2018 Qtr 4,450.1168040041196
+London,- of which EU15,2019 Qtr 1,433.4436256687424
+London,- of which EU15,2019 Qtr 2,427.3792933238558
+London,- of which EU15,2019 Qtr 3,350.11066248705174
+London,- of which EU15,2019 Qtr 4,493.3986386178653
+London,- of which EU15,2020 Qtr 1,350.22268239228634
+London,- of which EU15,2020 Qtr 2,NA
+London,- of which EU15,2020 Qtr 3,NA
+London,- of which EU15,2020 Qtr 4,NA
+London,- of which EU15,2021 Qtr 1,11.98829641122773
+London,- of which EU15,2021 Qtr 2,13.371772314374017
+London,- of which EU15,2021 Qtr 3,76.25980392818437
+London,- of which EU15,2021 Qtr 4,136.11360782045958
+London,- of which EU15,2022 Qtr 1,121.10695823727121
+London,- of which EU15,2022 Qtr 2,293.4342497247266
+London,- of which EU15,2022 Qtr 3,310.9255991729922
+London,- of which EU15,2022 Qtr 4,332.3876687622304
+London,Other Countries,2018 Qtr 1,1115.6167273269218
+London,Other Countries,2018 Qtr 2,1415.3759902381805
+London,Other Countries,2018 Qtr 3,1859.4109166597516
+London,Other Countries,2018 Qtr 4,1256.5343818837737
+London,Other Countries,2019 Qtr 1,979.6460719195258
+London,Other Countries,2019 Qtr 2,1333.7494833318633
+London,Other Countries,2019 Qtr 3,1888.4481585300555
+London,Other Countries,2019 Qtr 4,1303.3948624148657
+London,Other Countries,2020 Qtr 1,875.3151140486117
+London,Other Countries,2020 Qtr 2,NA
+London,Other Countries,2020 Qtr 3,NA
+London,Other Countries,2020 Qtr 4,NA
+London,Other Countries,2021 Qtr 1,24.37069459424996
+London,Other Countries,2021 Qtr 2,23.793029020474872
+London,Other Countries,2021 Qtr 3,102.7909228052064
+London,Other Countries,2021 Qtr 4,257.23708062863057
+London,Other Countries,2022 Qtr 1,311.6260968725162
+London,Other Countries,2022 Qtr 2,738.9323062799856
+London,Other Countries,2022 Qtr 3,983.1904203216569
+London,Other Countries,2022 Qtr 4,952.4964474736615
+London,Total World,2018 Qtr 1,4542.135642043565
+London,Total World,2018 Qtr 2,5443.822227037844
+London,Total World,2018 Qtr 3,5861.550136042072
+London,Total World,2018 Qtr 4,5224.519293400936
+London,Total World,2019 Qtr 1,4555.766209227581
+London,Total World,2019 Qtr 2,5373.786331945229
+London,Total World,2019 Qtr 3,6122.331933059141
+London,Total World,2019 Qtr 4,5661.580702434189
+London,Total World,2020 Qtr 1,3696.2573074052743
+London,Total World,2020 Qtr 2,NA
+London,Total World,2020 Qtr 3,NA
+London,Total World,2020 Qtr 4,NA
+London,Total World,2021 Qtr 1,93.61793997977934
+London,Total World,2021 Qtr 2,121.50663298969599
+London,Total World,2021 Qtr 3,779.6299305766349
+London,Total World,2021 Qtr 4,1727.8989747147432
+London,Total World,2022 Qtr 1,1848.9010422001547
+London,Total World,2022 Qtr 2,4254.08241594369
+London,Total World,2022 Qtr 3,4869.787283479305
+London,Total World,2022 Qtr 4,5145.167884147403
+Other England,North America,2018 Qtr 1,281.08887540334246
+Other England,North America,2018 Qtr 2,568.6898338377513
+Other England,North America,2018 Qtr 3,661.1819417622627
+Other England,North America,2018 Qtr 4,340.5495099820989
+Other England,North America,2019 Qtr 1,264.71234444730555
+Other England,North America,2019 Qtr 2,512.3435510515079
+Other England,North America,2019 Qtr 3,609.6375174302905
+Other England,North America,2019 Qtr 4,417.72065688107995
+Other England,North America,2020 Qtr 1,252.31217767740026
+Other England,North America,2020 Qtr 2,NA
+Other England,North America,2020 Qtr 3,NA
+Other England,North America,2020 Qtr 4,NA
+Other England,North America,2021 Qtr 1,16.25098854249085
+Other England,North America,2021 Qtr 2,21.96646395927437
+Other England,North America,2021 Qtr 3,119.83031299326694
+Other England,North America,2021 Qtr 4,145.83998024727217
+Other England,North America,2022 Qtr 1,138.55915842041247
+Other England,North America,2022 Qtr 2,498.3403454443253
+Other England,North America,2022 Qtr 3,753.742388563937
+Other England,North America,2022 Qtr 4,404.79319316611986
+Other England,Europe,2018 Qtr 1,2456.0510529218436
+Other England,Europe,2018 Qtr 2,2989.017276416391
+Other England,Europe,2018 Qtr 3,3183.230916867439
+Other England,Europe,2018 Qtr 4,2900.1294464491343
+Other England,Europe,2019 Qtr 1,2565.8582674301847
+Other England,Europe,2019 Qtr 2,3079.3650819557984
+Other England,Europe,2019 Qtr 3,3469.3989617866237
+Other England,Europe,2019 Qtr 4,2907.9354838997706
+Other England,Europe,2020 Qtr 1,2196.496044310624
+Other England,Europe,2020 Qtr 2,NA
+Other England,Europe,2020 Qtr 3,NA
+Other England,Europe,2020 Qtr 4,NA
+Other England,Europe,2021 Qtr 1,96.645358664343
+Other England,Europe,2021 Qtr 2,143.35496672608517
+Other England,Europe,2021 Qtr 3,898.3270299655761
+Other England,Europe,2021 Qtr 4,1462.5113031802052
+Other England,Europe,2022 Qtr 1,1334.1290156626435
+Other England,Europe,2022 Qtr 2,2254.4394767260414
+Other England,Europe,2022 Qtr 3,2906.955287711734
+Other England,Europe,2022 Qtr 4,2973.541282905278
+Other England,- of which EU,2018 Qtr 1,2283.6710011958253
+Other England,- of which EU,2018 Qtr 2,2751.1709765125697
+Other England,- of which EU,2018 Qtr 3,2940.8545153124564
+Other England,- of which EU,2018 Qtr 4,2641.9633870497255
+Other England,- of which EU,2019 Qtr 1,2369.4658751428597
+Other England,- of which EU,2019 Qtr 2,2790.9671070407057
+Other England,- of which EU,2019 Qtr 3,3162.7198871176843
+Other England,- of which EU,2019 Qtr 4,2632.391173996285
+Other England,- of which EU,2020 Qtr 1,1994.470493538842
+Other England,- of which EU,2020 Qtr 2,NA
+Other England,- of which EU,2020 Qtr 3,NA
+Other England,- of which EU,2020 Qtr 4,NA
+Other England,- of which EU,2021 Qtr 1,92.23390539431627
+Other England,- of which EU,2021 Qtr 2,129.47373694881827
+Other England,- of which EU,2021 Qtr 3,833.2359589656156
+Other England,- of which EU,2021 Qtr 4,1333.0608347362577
+Other England,- of which EU,2022 Qtr 1,1206.3354761749292
+Other England,- of which EU,2022 Qtr 2,2049.8484428454713
+Other England,- of which EU,2022 Qtr 3,2631.0354304484736
+Other England,- of which EU,2022 Qtr 4,2749.765083006395
+Other England,- of which EU15,2018 Qtr 1,1641.142740077986
+Other England,- of which EU15,2018 Qtr 2,2075.728209620731
+Other England,- of which EU15,2018 Qtr 3,2281.991025504269
+Other England,- of which EU15,2018 Qtr 4,1992.360055039681
+Other England,- of which EU15,2019 Qtr 1,1758.3617662729762
+Other England,- of which EU15,2019 Qtr 2,2158.9681390776673
+Other England,- of which EU15,2019 Qtr 3,2459.2207318646792
+Other England,- of which EU15,2019 Qtr 4,1971.0053636204977
+Other England,- of which EU15,2020 Qtr 1,1524.2592189102122
+Other England,- of which EU15,2020 Qtr 2,NA
+Other England,- of which EU15,2020 Qtr 3,NA
+Other England,- of which EU15,2020 Qtr 4,NA
+Other England,- of which EU15,2021 Qtr 1,67.55510221814298
+Other England,- of which EU15,2021 Qtr 2,103.60185946027107
+Other England,- of which EU15,2021 Qtr 3,607.6581228829273
+Other England,- of which EU15,2021 Qtr 4,1004.587151696133
+Other England,- of which EU15,2022 Qtr 1,861.0087527710027
+Other England,- of which EU15,2022 Qtr 2,1652.063301958851
+Other England,- of which EU15,2022 Qtr 3,2067.112936766035
+Other England,- of which EU15,2022 Qtr 4,2003.0296272272528
+Other England,- of which EU Oth,2018 Qtr 1,642.5282611178401
+Other England,- of which EU Oth,2018 Qtr 2,675.442766891838
+Other England,- of which EU Oth,2018 Qtr 3,658.8634898081878
+Other England,- of which EU Oth,2018 Qtr 4,649.6033320100469
+Other England,- of which EU Oth,2019 Qtr 1,611.1041088698831
+Other England,- of which EU Oth,2019 Qtr 2,631.9989679630378
+Other England,- of which EU Oth,2019 Qtr 3,703.4991552530046
+Other England,- of which EU Oth,2019 Qtr 4,661.3858103757871
+Other England,- of which EU Oth,2020 Qtr 1,470.2112746286301
+Other England,- of which EU Oth,2020 Qtr 2,NA
+Other England,- of which EU Oth,2020 Qtr 3,NA
+Other England,- of which EU Oth,2020 Qtr 4,NA
+Other England,- of which EU Oth,2021 Qtr 1,24.67880317617328
+Other England,- of which EU Oth,2021 Qtr 2,25.87187748854719
+Other England,- of which EU Oth,2021 Qtr 3,225.57783608268824
+Other England,- of which EU Oth,2021 Qtr 4,328.4736830401249
+Other England,- of which EU Oth,2022 Qtr 1,345.3267234039269
+Other England,- of which EU Oth,2022 Qtr 2,397.7851408866199
+Other England,- of which EU Oth,2022 Qtr 3,563.92249368244
+Other England,- of which EU Oth,2022 Qtr 4,746.7354557791431
+Other England,Other Countries,2018 Qtr 1,536.048518718477
+Other England,Other Countries,2018 Qtr 2,683.1423701925847
+Other England,Other Countries,2018 Qtr 3,1073.126500549806
+Other England,Other Countries,2018 Qtr 4,664.0401621105935
+Other England,Other Countries,2019 Qtr 1,458.37515898082995
+Other England,Other Countries,2019 Qtr 2,764.0371262333969
+Other England,Other Countries,2019 Qtr 3,1239.1181629475288
+Other England,Other Countries,2019 Qtr 4,648.9580504826557
+Other England,Other Countries,2020 Qtr 1,436.9747541303377
+Other England,Other Countries,2020 Qtr 2,NA
+Other England,Other Countries,2020 Qtr 3,NA
+Other England,Other Countries,2020 Qtr 4,NA
+Other England,Other Countries,2021 Qtr 1,29.29623869604362
+Other England,Other Countries,2021 Qtr 2,26.44658885563184
+Other England,Other Countries,2021 Qtr 3,117.06598417779313
+Other England,Other Countries,2021 Qtr 4,166.6594084930428
+Other England,Other Countries,2022 Qtr 1,200.54386334024198
+Other England,Other Countries,2022 Qtr 2,465.603873383378
+Other England,Other Countries,2022 Qtr 3,764.761730061864
+Other England,Other Countries,2022 Qtr 4,501.6456596118215
+Other England,Total World,2018 Qtr 1,3273.1884470436626
+Other England,Total World,2018 Qtr 2,4240.849480446723
+Other England,Total World,2018 Qtr 3,4917.539359179505
+Other England,Total World,2018 Qtr 4,3904.7191185418274
+Other England,Total World,2019 Qtr 1,3288.9457708583204
+Other England,Total World,2019 Qtr 2,4355.7457592407045
+Other England,Total World,2019 Qtr 3,5318.154642164439
+Other England,Total World,2019 Qtr 4,3974.6141912635053
+Other England,Total World,2020 Qtr 1,2885.7829761183616
+Other England,Total World,2020 Qtr 2,NA
+Other England,Total World,2020 Qtr 3,NA
+Other England,Total World,2020 Qtr 4,NA
+Other England,Total World,2021 Qtr 1,142.1925859028774
+Other England,Total World,2021 Qtr 2,191.7680195409913
+Other England,Total World,2021 Qtr 3,1135.2233271366356
+Other England,Total World,2021 Qtr 4,1775.0106919205214
+Other England,Total World,2022 Qtr 1,1673.2320374232975
+Other England,Total World,2022 Qtr 2,3218.383695553744
+Other England,Total World,2022 Qtr 3,4425.459406337535
+Other England,Total World,2022 Qtr 4,3879.980135683217
+Total England,North America,2018 Qtr 1,876.115618674895
+Total England,North America,2018 Qtr 2,1468.8775570147438
+Total England,North America,2018 Qtr 3,1670.5991448183158
+Total England,North America,2018 Qtr 4,880.6584398923455
+Total England,North America,2019 Qtr 1,845.1600571395687
+Total England,North America,2019 Qtr 2,1353.515459537889
+Total England,North America,2019 Qtr 3,1531.6185237940888
+Total England,North America,2019 Qtr 4,1090.9634413214665
+Total England,North America,2020 Qtr 1,759.8637080847788
+Total England,North America,2020 Qtr 2,NA
+Total England,North America,2020 Qtr 3,NA
+Total England,North America,2020 Qtr 4,NA
+Total England,North America,2021 Qtr 1,29.081066986464847
+Total England,North America,2021 Qtr 2,43.04526199974234
+Total England,North America,2021 Qtr 3,261.3171063493926
+Total England,North America,2021 Qtr 4,374.4818224702193
+Total England,North America,2022 Qtr 1,389.44362400885325
+Total England,North America,2022 Qtr 2,1370.598786337882
+Total England,North America,2022 Qtr 3,1869.8533077533473
+Total England,North America,2022 Qtr 4,1207.5974744072043
+Total England,Europe,2018 Qtr 1,5090.488906943137
+Total England,Europe,2018 Qtr 2,5713.577062606574
+Total England,Europe,2018 Qtr 3,5673.275370221864
+Total England,Europe,2018 Qtr 4,6002.04539784493
+Total England,Europe,2019 Qtr 1,5341.198948724948
+Total England,Europe,2019 Qtr 2,5885.991825446195
+Total England,Europe,2019 Qtr 3,6174.430569455038
+Total England,Europe,2019 Qtr 4,6251.542583995919
+Total England,Europe,2020 Qtr 1,4314.53211266539
+Total England,Europe,2020 Qtr 2,NA
+Total England,Europe,2020 Qtr 3,NA
+Total England,Europe,2020 Qtr 4,NA
+Total England,Europe,2021 Qtr 1,148.7908255742823
+Total England,Europe,2021 Qtr 2,214.48496460070848
+Total England,Europe,2021 Qtr 3,1372.658413709349
+Total England,Europe,2021 Qtr 4,2618.0693572639875
+Total England,Europe,2022 Qtr 1,2537.109421543742
+Total England,Europe,2022 Qtr 2,4612.709611418794
+Total England,Europe,2022 Qtr 3,5190.52088861246
+Total England,Europe,2022 Qtr 4,6086.897112173779
+Total England,- of which EU,2018 Qtr 1,4631.328358319794
+Total England,- of which EU,2018 Qtr 2,5169.020711186739
+Total England,- of which EU,2018 Qtr 3,5127.959611273403
+Total England,- of which EU,2018 Qtr 4,5447.445640348217
+Total England,- of which EU,2019 Qtr 1,4877.371566684486
+Total England,- of which EU,2019 Qtr 2,5354.203275419133
+Total England,- of which EU,2019 Qtr 3,5580.129761475436
+Total England,- of which EU,2019 Qtr 4,5639.059714035377
+Total England,- of which EU,2020 Qtr 1,3896.8726821372948
+Total England,- of which EU,2020 Qtr 2,NA
+Total England,- of which EU,2020 Qtr 3,NA
+Total England,- of which EU,2020 Qtr 4,NA
+Total England,- of which EU,2021 Qtr 1,138.00551989021193
+Total England,- of which EU,2021 Qtr 2,190.79226745124691
+Total England,- of which EU,2021 Qtr 3,1254.36824736493
+Total England,- of which EU,2021 Qtr 4,2377.8247943250853
+Total England,- of which EU,2022 Qtr 1,2308.5479778980553
+Total England,- of which EU,2022 Qtr 2,4175.807351312263
+Total England,- of which EU,2022 Qtr 3,4684.2527127366
+Total England,- of which EU,2022 Qtr 4,5528.808502531216
+Total England,- of which EU15,2018 Qtr 1,3658.586003068349
+Total England,- of which EU15,2018 Qtr 2,4144.390359281809
+Total England,- of which EU15,2018 Qtr 3,4150.34172169035
+Total England,- of which EU15,2018 Qtr 4,4402.779444403407
+Total England,- of which EU15,2019 Qtr 1,3864.770526594386
+Total England,- of which EU15,2019 Qtr 2,4337.335021129277
+Total England,- of which EU15,2019 Qtr 3,4586.234873712509
+Total England,- of which EU15,2019 Qtr 4,4525.284948830329
+Total England,- of which EU15,2020 Qtr 1,3103.2417571474393
+Total England,- of which EU15,2020 Qtr 2,NA
+Total England,- of which EU15,2020 Qtr 3,NA
+Total England,- of which EU15,2020 Qtr 4,NA
+Total England,- of which EU15,2021 Qtr 1,103.90207970399165
+Total England,- of which EU15,2021 Qtr 2,151.54861764832577
+Total England,- of which EU15,2021 Qtr 3,962.0773128865511
+Total England,- of which EU15,2021 Qtr 4,1919.8729176016486
+Total England,- of which EU15,2022 Qtr 1,1850.8764470368935
+Total England,- of which EU15,2022 Qtr 2,3504.724544127094
+Total England,- of which EU15,2022 Qtr 3,3853.325609801048
+Total England,- of which EU15,2022 Qtr 4,4471.933411234823
+Total England,- of which EU Oth,2018 Qtr 1,972.742355251444
+Total England,- of which EU Oth,2018 Qtr 2,1024.6303519049327
+Total England,- of which EU Oth,2018 Qtr 3,977.6178895830521
+Total England,- of which EU Oth,2018 Qtr 4,1044.666195944808
+Total England,- of which EU Oth,2019 Qtr 1,1012.601040090099
+Total England,- of which EU Oth,2019 Qtr 2,1016.8682542898532
+Total England,- of which EU Oth,2019 Qtr 3,993.8948877629276
+Total England,- of which EU Oth,2019 Qtr 4,1113.7747652050468
+Total England,- of which EU Oth,2020 Qtr 1,793.6309249898558
+Total England,- of which EU Oth,2020 Qtr 2,NA
+Total England,- of which EU Oth,2020 Qtr 3,NA
+Total England,- of which EU Oth,2020 Qtr 4,NA
+Total England,- of which EU Oth,2021 Qtr 1,34.10344018622024
+Total England,- of which EU Oth,2021 Qtr 2,39.243649802921205
+Total England,- of which EU Oth,2021 Qtr 3,292.2909344783795
+Total England,- of which EU Oth,2021 Qtr 4,457.9518767234377
+Total England,- of which EU Oth,2022 Qtr 1,457.67153086116133
+Total England,- of which EU Oth,2022 Qtr 2,671.0828071851694
+Total England,- of which EU Oth,2022 Qtr 3,830.9271029355489
+Total England,- of which EU Oth,2022 Qtr 4,1056.8750912963912
+Total England,Other Countries,2018 Qtr 1,1480.2256946451544
+Total England,Other Countries,2018 Qtr 2,1902.488165478339
+Total England,Other Countries,2018 Qtr 3,2578.4513791364843
+Total England,Other Countries,2018 Qtr 4,1701.3643543418916
+Total England,Other Countries,2019 Qtr 1,1302.2617470028947
+Total England,Other Countries,2019 Qtr 2,1844.4163973657705
+Total England,Other Countries,2019 Qtr 3,2716.308057734943
+Total England,Other Countries,2019 Qtr 4,1776.388478627426
+Total England,Other Countries,2020 Qtr 1,1201.1870994031337
+Total England,Other Countries,2020 Qtr 2,NA
+Total England,Other Countries,2020 Qtr 3,NA
+Total England,Other Countries,2020 Qtr 4,NA
+Total England,Other Countries,2021 Qtr 1,52.86606537555028
+Total England,Other Countries,2021 Qtr 2,48.93220469976808
+Total England,Other Countries,2021 Qtr 3,206.87408215258145
+Total England,Other Countries,2021 Qtr 4,399.12592621622565
+Total England,Other Countries,2022 Qtr 1,479.9518450150938
+Total England,Other Countries,2022 Qtr 2,1100.7137110861302
+Total England,Other Countries,2022 Qtr 3,1590.7635041071849
+Total England,Other Countries,2022 Qtr 4,1319.8935506958303
+Total England,Total World,2018 Qtr 1,7446.830220263185
+Total England,Total World,2018 Qtr 2,9084.942785099649
+Total England,Total World,2018 Qtr 3,9922.325894176662
+Total England,Total World,2018 Qtr 4,8584.06819207917
+Total England,Total World,2019 Qtr 1,7488.620752867416
+Total England,Total World,2019 Qtr 2,9083.923682349858
+Total England,Total World,2019 Qtr 3,10422.357150984062
+Total England,Total World,2019 Qtr 4,9118.894503944808
+Total England,Total World,2020 Qtr 1,6275.5829201533015
+Total England,Total World,2020 Qtr 2,NA
+Total England,Total World,2020 Qtr 3,NA
+Total England,Total World,2020 Qtr 4,NA
+Total England,Total World,2021 Qtr 1,230.73795793629742
+Total England,Total World,2021 Qtr 2,306.46243130021884
+Total England,Total World,2021 Qtr 3,1840.8496022113234
+Total England,Total World,2021 Qtr 4,3391.6771059504304
+Total England,Total World,2022 Qtr 1,3406.5048905676904
+Total England,Total World,2022 Qtr 2,7084.022108842798
+Total England,Total World,2022 Qtr 3,8651.137700472995
+Total England,Total World,2022 Qtr 4,8614.388137276812
+Scotland,North America,2018 Qtr 1,59.29500968895182
+Scotland,North America,2018 Qtr 2,260.60767612625966
+Scotland,North America,2018 Qtr 3,276.76992349386717
+Scotland,North America,2018 Qtr 4,104.47304647634493
+Scotland,North America,2019 Qtr 1,67.06238942014005
+Scotland,North America,2019 Qtr 2,259.05107960822556
+Scotland,North America,2019 Qtr 3,298.7963265288984
+Scotland,North America,2019 Qtr 4,136.25908671763398
+Scotland,North America,2020 Qtr 1,49.76066314698123
+Scotland,North America,2020 Qtr 2,NA
+Scotland,North America,2020 Qtr 3,NA
+Scotland,North America,2020 Qtr 4,NA
+Scotland,North America,2021 Qtr 1,1.104100372828559
+Scotland,North America,2021 Qtr 2,5.516310918510397
+Scotland,North America,2021 Qtr 3,29.987016082812865
+Scotland,North America,2021 Qtr 4,45.6152397779185
+Scotland,North America,2022 Qtr 1,26.659553480313985
+Scotland,North America,2022 Qtr 2,249.98817306096396
+Scotland,North America,2022 Qtr 3,409.9653669521576
+Scotland,North America,2022 Qtr 4,148.7679107739141
+Scotland,Europe,2018 Qtr 1,505.57093816402136
+Scotland,Europe,2018 Qtr 2,619.7079082612993
+Scotland,Europe,2018 Qtr 3,666.1746449343395
+Scotland,Europe,2018 Qtr 4,375.58420494925
+Scotland,Europe,2019 Qtr 1,265.13729072340664
+Scotland,Europe,2019 Qtr 2,452.44955365598895
+Scotland,Europe,2019 Qtr 3,572.2580366977097
+Scotland,Europe,2019 Qtr 4,510.7059284117256
+Scotland,Europe,2020 Qtr 1,215.07690543458435
+Scotland,Europe,2020 Qtr 2,NA
+Scotland,Europe,2020 Qtr 3,NA
+Scotland,Europe,2020 Qtr 4,NA
+Scotland,Europe,2021 Qtr 1,5.3849657457332905
+Scotland,Europe,2021 Qtr 2,16.227448918375874
+Scotland,Europe,2021 Qtr 3,119.77561046758736
+Scotland,Europe,2021 Qtr 4,209.7830632506012
+Scotland,Europe,2022 Qtr 1,191.19325828409418
+Scotland,Europe,2022 Qtr 2,419.3243870920113
+Scotland,Europe,2022 Qtr 3,754.0157366348872
+Scotland,Europe,2022 Qtr 4,589.6641573930838
+Scotland,- of which EU,2018 Qtr 1,477.0707431245821
+Scotland,- of which EU,2018 Qtr 2,541.1767749973507
+Scotland,- of which EU,2018 Qtr 3,601.441102901555
+Scotland,- of which EU,2018 Qtr 4,319.0867688209804
+Scotland,- of which EU,2019 Qtr 1,243.1702567606794
+Scotland,- of which EU,2019 Qtr 2,397.2379950111421
+Scotland,- of which EU,2019 Qtr 3,513.8608844450339
+Scotland,- of which EU,2019 Qtr 4,432.504782634836
+Scotland,- of which EU,2020 Qtr 1,190.9962647565682
+Scotland,- of which EU,2020 Qtr 2,NA
+Scotland,- of which EU,2020 Qtr 3,NA
+Scotland,- of which EU,2020 Qtr 4,NA
+Scotland,- of which EU,2021 Qtr 1,5.035663350717936
+Scotland,- of which EU,2021 Qtr 2,14.928163760517993
+Scotland,- of which EU,2021 Qtr 3,110.09537099346413
+Scotland,- of which EU,2021 Qtr 4,196.6201837576961
+Scotland,- of which EU,2022 Qtr 1,174.05503630546337
+Scotland,- of which EU,2022 Qtr 2,375.7537535899628
+Scotland,- of which EU,2022 Qtr 3,663.809441312986
+Scotland,- of which EU,2022 Qtr 4,488.74017581441103
+Scotland,- of which EU Oth,2018 Qtr 1,433.0505111780396
+Scotland,- of which EU Oth,2018 Qtr 2,498.20432094921733
+Scotland,- of which EU Oth,2018 Qtr 3,557.5484776945854
+Scotland,- of which EU Oth,2018 Qtr 4,284.4077567498314
+Scotland,- of which EU Oth,2019 Qtr 1,211.56064553076428
+Scotland,- of which EU Oth,2019 Qtr 2,365.1276010581492
+Scotland,- of which EU Oth,2019 Qtr 3,428.2107700989673
+Scotland,- of which EU Oth,2019 Qtr 4,384.5101458710368
+Scotland,- of which EU Oth,2020 Qtr 1,154.14876706245687
+Scotland,- of which EU Oth,2020 Qtr 2,NA
+Scotland,- of which EU Oth,2020 Qtr 3,NA
+Scotland,- of which EU Oth,2020 Qtr 4,NA
+Scotland,- of which EU Oth,2021 Qtr 1,3.2258861773151812
+Scotland,- of which EU Oth,2021 Qtr 2,13.841705338713947
+Scotland,- of which EU Oth,2021 Qtr 3,82.70170143116007
+Scotland,- of which EU Oth,2021 Qtr 4,162.67609793054234
+Scotland,- of which EU Oth,2022 Qtr 1,136.71642502070154
+Scotland,- of which EU Oth,2022 Qtr 2,312.86381851404025
+Scotland,- of which EU Oth,2022 Qtr 3,590.6923819313961
+Scotland,- of which EU Oth,2022 Qtr 4,421.28628052013937
+Scotland,- of which EU15,2018 Qtr 1,44.020231946542566
+Scotland,- of which EU15,2018 Qtr 2,42.972454048133464
+Scotland,- of which EU15,2018 Qtr 3,43.89262520696984
+Scotland,- of which EU15,2018 Qtr 4,34.679012071149
+Scotland,- of which EU15,2019 Qtr 1,31.60961122991511
+Scotland,- of which EU15,2019 Qtr 2,32.11039395299282
+Scotland,- of which EU15,2019 Qtr 3,85.65011434606662
+Scotland,- of which EU15,2019 Qtr 4,47.994636763799186
+Scotland,- of which EU15,2020 Qtr 1,36.84749769411132
+Scotland,- of which EU15,2020 Qtr 2,NA
+Scotland,- of which EU15,2020 Qtr 3,NA
+Scotland,- of which EU15,2020 Qtr 4,NA
+Scotland,- of which EU15,2021 Qtr 1,1.8097771734027552
+Scotland,- of which EU15,2021 Qtr 2,1.0864584218040458
+Scotland,- of which EU15,2021 Qtr 3,27.39366956230409
+Scotland,- of which EU15,2021 Qtr 4,33.944085827153764
+Scotland,- of which EU15,2022 Qtr 1,37.33861128476187
+Scotland,- of which EU15,2022 Qtr 2,62.889935075922686
+Scotland,- of which EU15,2022 Qtr 3,73.1170593815899
+Scotland,- of which EU15,2022 Qtr 4,67.45389529427165
+Scotland,Other Countries,2018 Qtr 1,125.26877456565394
+Scotland,Other Countries,2018 Qtr 2,195.60225773047782
+Scotland,Other Countries,2018 Qtr 3,343.3101540555878
+Scotland,Other Countries,2018 Qtr 4,197.06895013096533
+Scotland,Other Countries,2019 Qtr 1,111.18281685427027
+Scotland,Other Countries,2019 Qtr 2,201.87621622138485
+Scotland,Other Countries,2019 Qtr 3,392.94042736327623
+Scotland,Other Countries,2019 Qtr 4,192.380516558996
+Scotland,Other Countries,2020 Qtr 1,102.5253325655365
+Scotland,Other Countries,2020 Qtr 2,NA
+Scotland,Other Countries,2020 Qtr 3,NA
+Scotland,Other Countries,2020 Qtr 4,NA
+Scotland,Other Countries,2021 Qtr 1,1.9556617857696796
+Scotland,Other Countries,2021 Qtr 2,3.347408158486767
+Scotland,Other Countries,2021 Qtr 3,16.498325796284547
+Scotland,Other Countries,2021 Qtr 4,23.650202288792833
+Scotland,Other Countries,2022 Qtr 1,36.6734219243834
+Scotland,Other Countries,2022 Qtr 2,105.78150209475807
+Scotland,Other Countries,2022 Qtr 3,190.61292886089768
+Scotland,Other Countries,2022 Qtr 4,111.83421658641554
+Scotland,Total World,2018 Qtr 1,690.134722418627
+Scotland,Total World,2018 Qtr 2,1075.9178421180366
+Scotland,Total World,2018 Qtr 3,1286.254722483794
+Scotland,Total World,2018 Qtr 4,677.1262015565603
+Scotland,Total World,2019 Qtr 1,443.3824969978171
+Scotland,Total World,2019 Qtr 2,913.3768494855995
+Scotland,Total World,2019 Qtr 3,1263.9947905898841
+Scotland,Total World,2019 Qtr 4,839.3455316883558
+Scotland,Total World,2020 Qtr 1,367.362901147102
+Scotland,Total World,2020 Qtr 2,NA
+Scotland,Total World,2020 Qtr 3,NA
+Scotland,Total World,2020 Qtr 4,NA
+Scotland,Total World,2021 Qtr 1,8.44472790433153
+Scotland,Total World,2021 Qtr 2,25.09116799537304
+Scotland,Total World,2021 Qtr 3,166.26095234668472
+Scotland,Total World,2021 Qtr 4,279.04850531731245
+Scotland,Total World,2022 Qtr 1,254.5262336887916
+Scotland,Total World,2022 Qtr 2,775.0940622477333
+Scotland,Total World,2022 Qtr 3,1354.5940324479423
+Scotland,Total World,2022 Qtr 4,850.2662847534137
+Wales,North America,2018 Qtr 1,17.61310700700716
+Wales,North America,2018 Qtr 2,43.511987128622046
+Wales,North America,2018 Qtr 3,55.10706869132976
+Wales,North America,2018 Qtr 4,20.447889544856462
+Wales,North America,2019 Qtr 1,18.148466310568686
+Wales,North America,2019 Qtr 2,45.56347544203327
+Wales,North America,2019 Qtr 3,51.45152802286916
+Wales,North America,2019 Qtr 4,30.306057574713137
+Wales,North America,2020 Qtr 1,13.832840147449993
+Wales,North America,2020 Qtr 2,NA
+Wales,North America,2020 Qtr 3,NA
+Wales,North America,2020 Qtr 4,NA
+Wales,North America,2021 Qtr 1,0.5706394096660413
+Wales,North America,2021 Qtr 2,1.3468560152844822
+Wales,North America,2021 Qtr 3,4.742250621556446
+Wales,North America,2021 Qtr 4,8.085144211208641
+Wales,North America,2022 Qtr 1,4.233854666017148
+Wales,North America,2022 Qtr 2,37.45678816518159
+Wales,North America,2022 Qtr 3,51.91626807348403
+Wales,North America,2022 Qtr 4,17.46470948479561
+Wales,Europe,2018 Qtr 1,109.16962141461299
+Wales,Europe,2018 Qtr 2,189.1695750237927
+Wales,Europe,2018 Qtr 3,245.78775573546812
+Wales,Europe,2018 Qtr 4,106.93869128619596
+Wales,Europe,2019 Qtr 1,99.05142860399842
+Wales,Europe,2019 Qtr 2,185.31677695420188
+Wales,Europe,2019 Qtr 3,236.29097803304685
+Wales,Europe,2019 Qtr 4,123.61845888477143
+Wales,Europe,2020 Qtr 1,113.7299533715095
+Wales,Europe,2020 Qtr 2,NA
+Wales,Europe,2020 Qtr 3,NA
+Wales,Europe,2020 Qtr 4,NA
+Wales,Europe,2021 Qtr 1,2.6746840882216434
+Wales,Europe,2021 Qtr 2,8.626511457609618
+Wales,Europe,2021 Qtr 3,33.11514967836348
+Wales,Europe,2021 Qtr 4,49.502465197397385
+Wales,Europe,2022 Qtr 1,60.5980802292524
+Wales,Europe,2022 Qtr 2,111.69961508185587
+Wales,Europe,2022 Qtr 3,171.95011391956535
+Wales,Europe,2022 Qtr 4,116.14652337576999
+Wales,- of which EU,2018 Qtr 1,102.60664602005421
+Wales,- of which EU,2018 Qtr 2,181.9484545134874
+Wales,- of which EU,2018 Qtr 3,228.7376674933572
+Wales,- of which EU,2018 Qtr 4,96.36419508876617
+Wales,- of which EU,2019 Qtr 1,93.37922904340768
+Wales,- of which EU,2019 Qtr 2,175.77307255338397
+Wales,- of which EU,2019 Qtr 3,221.9586278065052
+Wales,- of which EU,2019 Qtr 4,117.33254842410255
+Wales,- of which EU,2020 Qtr 1,110.8260613538656
+Wales,- of which EU,2020 Qtr 2,NA
+Wales,- of which EU,2020 Qtr 3,NA
+Wales,- of which EU,2020 Qtr 4,NA
+Wales,- of which EU,2021 Qtr 1,2.6746840882216434
+Wales,- of which EU,2021 Qtr 2,7.606629644714679
+Wales,- of which EU,2021 Qtr 3,31.736588016164777
+Wales,- of which EU,2021 Qtr 4,45.00635433948817
+Wales,- of which EU,2022 Qtr 1,56.963593989609976
+Wales,- of which EU,2022 Qtr 2,102.4038125027438
+Wales,- of which EU,2022 Qtr 3,156.03373543393516
+Wales,- of which EU,2022 Qtr 4,108.59327450700286
+Wales,- of which EU15,2018 Qtr 1,84.27794556566637
+Wales,- of which EU15,2018 Qtr 2,156.73508785667013
+Wales,- of which EU15,2018 Qtr 3,203.81476697967418
+Wales,- of which EU15,2018 Qtr 4,79.36576623123172
+Wales,- of which EU15,2019 Qtr 1,78.89762934074166
+Wales,- of which EU15,2019 Qtr 2,150.44964178567125
+Wales,- of which EU15,2019 Qtr 3,192.9336706594737
+Wales,- of which EU15,2019 Qtr 4,84.22731811126404
+Wales,- of which EU15,2020 Qtr 1,82.01222314708376
+Wales,- of which EU15,2020 Qtr 2,NA
+Wales,- of which EU15,2020 Qtr 3,NA
+Wales,- of which EU15,2020 Qtr 4,NA
+Wales,- of which EU15,2021 Qtr 1,2.6746840882216434
+Wales,- of which EU15,2021 Qtr 2,6.658970290151755
+Wales,- of which EU15,2021 Qtr 3,25.788980944947298
+Wales,- of which EU15,2021 Qtr 4,36.462022302342824
+Wales,- of which EU15,2022 Qtr 1,43.83241588486835
+Wales,- of which EU15,2022 Qtr 2,89.92247506917674
+Wales,- of which EU15,2022 Qtr 3,135.96298657729724
+Wales,- of which EU15,2022 Qtr 4,82.61875818567025
+Wales,- of which EU Oth,2018 Qtr 1,18.328700454387832
+Wales,- of which EU Oth,2018 Qtr 2,25.213366656817257
+Wales,- of which EU Oth,2018 Qtr 3,24.922900513683015
+Wales,- of which EU Oth,2018 Qtr 4,16.998428857534442
+Wales,- of which EU Oth,2019 Qtr 1,14.481599702666045
+Wales,- of which EU Oth,2019 Qtr 2,25.323430767712775
+Wales,- of which EU Oth,2019 Qtr 3,29.02495714703155
+Wales,- of which EU Oth,2019 Qtr 4,33.10523031283851
+Wales,- of which EU Oth,2020 Qtr 1,28.813838206781817
+Wales,- of which EU Oth,2020 Qtr 2,NA
+Wales,- of which EU Oth,2020 Qtr 3,NA
+Wales,- of which EU Oth,2020 Qtr 4,NA
+Wales,- of which EU Oth,2021 Qtr 1,0
+Wales,- of which EU Oth,2021 Qtr 2,0.9476593545629247
+Wales,- of which EU Oth,2021 Qtr 3,5.94760707121748
+Wales,- of which EU Oth,2021 Qtr 4,8.544332037145347
+Wales,- of which EU Oth,2022 Qtr 1,13.131178104741641
+Wales,- of which EU Oth,2022 Qtr 2,12.48133743356706
+Wales,- of which EU Oth,2022 Qtr 3,20.07074885663787
+Wales,- of which EU Oth,2022 Qtr 4,25.974516321332608
+Wales,Other Countries,2018 Qtr 1,39.47117865811744
+Wales,Other Countries,2018 Qtr 2,52.41298509317245
+Wales,Other Countries,2018 Qtr 3,66.38465667230003
+Wales,Other Countries,2018 Qtr 4,41.487637257691595
+Wales,Other Countries,2019 Qtr 1,38.826358524548105
+Wales,Other Countries,2019 Qtr 2,72.61063962045101
+Wales,Other Countries,2019 Qtr 3,90.31321057744533
+Wales,Other Countries,2019 Qtr 4,31.56981398828894
+Wales,Other Countries,2020 Qtr 1,20.582516245091107
+Wales,Other Countries,2020 Qtr 2,NA
+Wales,Other Countries,2020 Qtr 3,NA
+Wales,Other Countries,2020 Qtr 4,NA
+Wales,Other Countries,2021 Qtr 1,0.5319959720739489
+Wales,Other Countries,2021 Qtr 2,0.8526198125548694
+Wales,Other Countries,2021 Qtr 3,4.613416982865399
+Wales,Other Countries,2021 Qtr 4,9.198864219663905
+Wales,Other Countries,2022 Qtr 1,7.926463248278319
+Wales,Other Countries,2022 Qtr 2,34.44903005680019
+Wales,Other Countries,2022 Qtr 3,35.02203412152086
+Wales,Other Countries,2022 Qtr 4,37.380829345857485
+Wales,Total World,2018 Qtr 1,166.25390707973764
+Wales,Total World,2018 Qtr 2,285.0945472455871
+Wales,Total World,2018 Qtr 3,367.27948109909795
+Wales,Total World,2018 Qtr 4,168.87421808874396
+Wales,Total World,2019 Qtr 1,156.0262534391152
+Wales,Total World,2019 Qtr 2,303.49089201668613
+Wales,Total World,2019 Qtr 3,378.0557166333615
+Wales,Total World,2019 Qtr 4,185.4943304477735
+Wales,Total World,2020 Qtr 1,148.1453097640506
+Wales,Total World,2020 Qtr 2,NA
+Wales,Total World,2020 Qtr 3,NA
+Wales,Total World,2020 Qtr 4,NA
+Wales,Total World,2021 Qtr 1,3.777319469961634
+Wales,Total World,2021 Qtr 2,10.825987285448969
+Wales,Total World,2021 Qtr 3,42.47081728278535
+Wales,Total World,2021 Qtr 4,66.78647362826993
+Wales,Total World,2022 Qtr 1,72.75839814354786
+Wales,Total World,2022 Qtr 2,183.60543330383766
+Wales,Total World,2022 Qtr 3,258.8884161145703
+Wales,Total World,2022 Qtr 4,170.99206220642316
+All Regions,North America,2018 Qtr 1,937.5629244123364
+All Regions,North America,2018 Qtr 2,1663.4699900662067
+All Regions,North America,2018 Qtr 3,1863.550158146716
+All Regions,North America,2018 Qtr 4,959.1373861868486
+All Regions,North America,2019 Qtr 1,899.9487242635705
+All Regions,North America,2019 Qtr 2,1537.4508034847454
+All Regions,North America,2019 Qtr 3,1744.809303858788
+All Regions,North America,2019 Qtr 4,1190.6062988533604
+All Regions,North America,2020 Qtr 1,793.7832246052193
+All Regions,North America,2020 Qtr 2,NA
+All Regions,North America,2020 Qtr 3,NA
+All Regions,North America,2020 Qtr 4,NA
+All Regions,North America,2021 Qtr 1,31.047775
+All Regions,North America,2021 Qtr 2,50.5485310000001
+All Regions,North America,2021 Qtr 3,289.4260471577665
+All Regions,North America,2021 Qtr 4,420.6288750117403
+All Regions,North America,2022 Qtr 1,415.1788383351613
+All Regions,North America,2022 Qtr 2,1587.4857215795485
+All Regions,North America,2022 Qtr 3,2156.758299755665
+All Regions,North America,2022 Qtr 4,1324.0103520170067
+All Regions,Europe,2018 Qtr 1,6065.21864453466
+All Regions,Europe,2018 Qtr 2,6824.454763557606
+All Regions,Europe,2018 Qtr 3,6903.529562173753
+All Regions,Europe,2018 Qtr 4,6899.422735943636
+All Regions,Europe,2019 Qtr 1,6043.516480561836
+All Regions,Europe,2019 Qtr 2,6878.53871047548
+All Regions,Europe,2019 Qtr 3,7155.901387293779
+All Regions,Europe,2019 Qtr 4,7215.176801002446
+All Regions,Europe,2020 Qtr 1,4926.42117992915
+All Regions,Europe,2020 Qtr 2,NA
+All Regions,Europe,2020 Qtr 3,NA
+All Regions,Europe,2020 Qtr 4,NA
+All Regions,Europe,2021 Qtr 1,158.37194100000008
+All Regions,Europe,2021 Qtr 2,242.4358149999998
+All Regions,Europe,2021 Qtr 3,1528.4685953103233
+All Regions,Europe,2021 Qtr 4,2904.3281561636677
+All Regions,Europe,2022 Qtr 1,2820.5005130352915
+All Regions,Europe,2022 Qtr 2,5189.333258918677
+All Regions,Europe,2022 Qtr 3,6083.721191103528
+All Regions,Europe,2022 Qtr 4,6885.732336363007
+All Regions,- of which EU,2018 Qtr 1,5548.626749186303
+All Regions,- of which EU,2018 Qtr 2,6201.964380173747
+All Regions,- of which EU,2018 Qtr 3,6276.796270988451
+All Regions,- of which EU,2018 Qtr 4,6266.493784061445
+All Regions,- of which EU,2019 Qtr 1,5542.8652276842695
+All Regions,- of which EU,2019 Qtr 2,6271.707329905628
+All Regions,- of which EU,2019 Qtr 3,6512.23747404843
+All Regions,- of which EU,2019 Qtr 4,6501.51673527747
+All Regions,- of which EU,2020 Qtr 1,4471.848552128985
+All Regions,- of which EU,2020 Qtr 2,NA
+All Regions,- of which EU,2020 Qtr 3,NA
+All Regions,- of which EU,2020 Qtr 4,NA
+All Regions,- of which EU,2021 Qtr 1,147.072488
+All Regions,- of which EU,2021 Qtr 2,215.5483999999999
+All Regions,- of which EU,2021 Qtr 3,1394.7654159086578
+All Regions,- of which EU,2021 Qtr 4,2652.7706483593447
+All Regions,- of which EU,2022 Qtr 1,2569.801927834651
+All Regions,- of which EU,2022 Qtr 2,4699.094069401994
+All Regions,- of which EU,2022 Qtr 3,5472.647539672224
+All Regions,- of which EU,2022 Qtr 4,6217.897021167126
+All Regions,- of which EU Oth,2018 Qtr 1,4489.296074300398
+All Regions,- of which EU Oth,2018 Qtr 2,5101.7050510090085
+All Regions,- of which EU Oth,2018 Qtr 3,5226.922628578319
+All Regions,- of which EU Oth,2018 Qtr 4,5162.1245669074315
+All Regions,- of which EU Oth,2019 Qtr 1,4456.40553943151
+All Regions,- of which EU Oth,2019 Qtr 2,5186.980660794598
+All Regions,- of which EU Oth,2019 Qtr 3,5389.216854136865
+All Regions,- of which EU Oth,2019 Qtr 4,5295.292233836716
+All Regions,- of which EU Oth,2020 Qtr 1,3602.795031677981
+All Regions,- of which EU Oth,2020 Qtr 2,NA
+All Regions,- of which EU Oth,2020 Qtr 3,NA
+All Regions,- of which EU Oth,2020 Qtr 4,NA
+All Regions,- of which EU Oth,2021 Qtr 1,110.67851899999997
+All Regions,- of which EU Oth,2021 Qtr 2,173.45481599999997
+All Regions,- of which EU Oth,2021 Qtr 3,1077.7133471013512
+All Regions,- of which EU Oth,2021 Qtr 4,2153.7059395960546
+All Regions,- of which EU Oth,2022 Qtr 1,2063.355347597448
+All Regions,- of which EU Oth,2022 Qtr 2,3953.5861284228495
+All Regions,- of which EU Oth,2022 Qtr 3,4542.0716129375705
+All Regions,- of which EU Oth,2022 Qtr 4,5062.260730267109
+All Regions,- of which EU15,2018 Qtr 1,1059.3306748859045
+All Regions,- of which EU15,2018 Qtr 2,1100.2593291647381
+All Regions,- of which EU15,2018 Qtr 3,1049.8736424101337
+All Regions,- of which EU15,2018 Qtr 4,1104.3692171540085
+All Regions,- of which EU15,2019 Qtr 1,1086.4596882527603
+All Regions,- of which EU15,2019 Qtr 2,1084.7266691110271
+All Regions,- of which EU15,2019 Qtr 3,1123.020619911562
+All Regions,- of which EU15,2019 Qtr 4,1206.224501440754
+All Regions,- of which EU15,2020 Qtr 1,869.0535204510041
+All Regions,- of which EU15,2020 Qtr 2,NA
+All Regions,- of which EU15,2020 Qtr 3,NA
+All Regions,- of which EU15,2020 Qtr 4,NA
+All Regions,- of which EU15,2021 Qtr 1,36.39396899999999
+All Regions,- of which EU15,2021 Qtr 2,42.09358400000001
+All Regions,- of which EU15,2021 Qtr 3,317.05206880730697
+All Regions,- of which EU15,2021 Qtr 4,499.0647087632909
+All Regions,- of which EU15,2022 Qtr 1,506.44658023720257
+All Regions,- of which EU15,2022 Qtr 2,745.507940979148
+All Regions,- of which EU15,2022 Qtr 3,930.5759267346522
+All Regions,- of which EU15,2022 Qtr 4,1155.6362909000188
+All Regions,Other Countries,2018 Qtr 1,1543.891553508895
+All Regions,Other Countries,2018 Qtr 2,2032.9639668992756
+All Regions,Other Countries,2018 Qtr 3,2769.2323153414586
+All Regions,Other Countries,2018 Qtr 4,1820.7686279816767
+All Regions,Other Countries,2019 Qtr 1,1388.4779713815883
+All Regions,Other Countries,2019 Qtr 2,1948.2715913502866
+All Regions,Other Countries,2019 Qtr 3,2963.4172133677234
+All Regions,Other Countries,2019 Qtr 4,1891.3327105971039
+All Regions,Other Countries,2020 Qtr 1,1274.012680713533
+All Regions,Other Countries,2020 Qtr 2,NA
+All Regions,Other Countries,2020 Qtr 3,NA
+All Regions,Other Countries,2020 Qtr 4,NA
+All Regions,Other Countries,2021 Qtr 1,55.58721399999999
+All Regions,Other Countries,2021 Qtr 2,52.84028999999999
+All Regions,Other Countries,2021 Qtr 3,221.87183566156114
+All Regions,Other Countries,2021 Qtr 4,428.2681771795307
+All Regions,Other Countries,2022 Qtr 1,507.6906528796095
+All Regions,Other Countries,2022 Qtr 2,1180.5541467573287
+All Regions,Other Countries,2022 Qtr 3,1705.5922453267283
+All Regions,Other Countries,2022 Qtr 4,1387.881440065412
+All Regions,Total World,2018 Qtr 1,8546.67312245589
+All Regions,Total World,2018 Qtr 2,10520.888720523088
+All Regions,Total World,2018 Qtr 3,11536.312035661927
+All Regions,Total World,2018 Qtr 4,9679.328750112172
+All Regions,Total World,2019 Qtr 1,8331.943176207
+All Regions,Total World,2019 Qtr 2,10364.261105310514
+All Regions,Total World,2019 Qtr 3,11864.127904520295
+All Regions,Total World,2019 Qtr 4,10297.115810452911
+All Regions,Total World,2020 Qtr 1,6994.217085247902
+All Regions,Total World,2020 Qtr 2,398
+All Regions,Total World,2020 Qtr 3,2322
+All Regions,Total World,2020 Qtr 4,1386
+All Regions,Total World,2021 Qtr 1,245.00693
+All Regions,Total World,2021 Qtr 2,345.82463599999994
+All Regions,Total World,2021 Qtr 3,2039.7664781296517
+All Regions,Total World,2021 Qtr 4,3753.225208354936
+All Regions,Total World,2022 Qtr 1,3743.3700042500654
+All Regions,Total World,2022 Qtr 2,7957.373127255549
+All Regions,Total World,2022 Qtr 3,9946.071736185922
+All Regions,Total World,2022 Qtr 4,9597.62412844541
